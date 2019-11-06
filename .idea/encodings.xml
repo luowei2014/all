@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registrationcenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-client-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-client2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/social-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/socialclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-center" charset="UTF-8" />
+  </component>
+</project>

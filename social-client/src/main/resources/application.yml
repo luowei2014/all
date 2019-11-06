@@ -1,0 +1,28 @@
+
+server:
+  port: 8762
+
+spring:
+  application:
+    name: service-hi
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: local
+    password: local
+    # 设置手动确认
+    publisher-confirms: true
+#    listener:
+#      simple:
+#        concurrency: 10
+#        max-concurrency: 20
+#        prefetch: 5
+#    publisher-confirms: true
+#    publisher-returns: true
+#    connection-timeout: 20000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+

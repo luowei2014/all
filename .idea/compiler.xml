@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
+        <module name="social-ribbon" />
+        <module name="social-client2" />
+        <module name="social-server" />
+        <module name="social-client" />
+        <module name="social-config-server" />
+        <module name="social-gateway" />
+        <module name="social-ucenter" />
+        <module name="social-feign" />
+        <module name="social-config-client" />
+        <module name="social-zuul" />
+        <module name="social-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="registrationcenter" target="1.8" />
+      <module name="socialclient" target="1.8" />
+      <module name="socialclientauth" target="1.8" />
+      <module name="usercenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="all" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="registrationcenter" options="-parameters" />
+      <module name="social-auth" options="-parameters" />
+      <module name="social-client" options="-parameters" />
+      <module name="social-client2" options="-parameters" />
+      <module name="social-config-client" options="-parameters" />
+      <module name="social-config-server" options="-parameters" />
+      <module name="social-feign" options="-parameters" />
+      <module name="social-gateway" options="-parameters" />
+      <module name="social-ribbon" options="-parameters" />
+      <module name="social-server" options="-parameters" />
+      <module name="social-ucenter" options="-parameters" />
+      <module name="social-zuul" options="-parameters" />
+      <module name="socialclient" options="-parameters" />
+      <module name="socialclientauth" options="-parameters" />
+      <module name="usercenter" options="-parameters" />
+    </option>
+  </component>
+</project>
